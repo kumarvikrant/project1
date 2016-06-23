@@ -1,6 +1,13 @@
+
+body{
+  font-family: sans-serif;
+  background:#8DEEEE;
+  }
 .heading{
   background-color: grey;
   margin-left:0px;
+  position:fixed;
+  width:100%
 }
 
 .heading h1{
@@ -8,13 +15,10 @@
   text-align: left;
   padding-left:25px;
 }
-
-
  .heading ul li{
   display:inline;
   padding-left:0px;
 }
-
 .heading ul li a{
   color:black;
   font-size:20px;
@@ -22,7 +26,43 @@
 .heading ul a:hover{
   color:white;
 }
-
 nav a{
   text-decoration: none;
+}
+.wrap h4{
+  padding-top: 50px;
+  color:red;
+}
+.wrap p{
+  padding-top:15px;
+  font-size: 14px;
+  line-height: 20px;
+  color:#2c3e50;
+}
+.hero img{
+  background-color: grey;
+  padding-top:30px;
+  padding-bottom:20px;
+  width:100%;
+}
+.wrap
+{
+  padding-top: 150px;
+}
+.next h2{
+  font-size: 20px;
+  padding-left: 10px;
+}
+.next{
+  font-size: 20px;
+}
+.ranks a{
+  text-decoration: none;
+  color:black;
+}
+.ranks{
+  padding-top: 100px;
+}
+.ranks a:hover{
+  color:blue;
 }
