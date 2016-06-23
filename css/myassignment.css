@@ -1,12 +1,28 @@
-.wrap{
-  background:red;
-}
-header{
-  margin-top: 20px;
-  width:100%;
+.heading{
+  background-color: grey;
+  margin-left:0px;
 }
 
-nav li{
-  display: inline;
-  margin-top: 30px;
+.heading h1{
+  font-size: 60px;
+  text-align: left;
+  padding-left:25px;
+}
+
+
+ .heading ul li{
+  display:inline;
+  padding-left:0px;
+}
+
+.heading ul li a{
+  color:black;
+  font-size:20px;
+}
+.heading ul a:hover{
+  color:white;
+}
+
+nav a{
+  text-decoration: none;
 }
