@@ -58,6 +58,9 @@ nav a{
 {
   padding-top: 150px;
 }
+.wrap img{
+  border-radius: 4px;
+}
 .next h2{
   font-size: 20px;
   padding-left: 10px;
@@ -67,16 +70,28 @@ nav a{
 }
 .ranks a{
   text-decoration: none;
-  color:black;
+  color:red;
 }
 .ranks{
   padding-top: 100px;
 }
 .ranks a:hover{
-  color:grey;
+  color:#3498db;
+  text-decoration:underline;
 }
-.side p:hover{
-  color:grey;
+.side h3{
+  padding-right:0px;
+  color:red;
+}
+.side a{
+  text-decoration: none;
+}
+.side h3:hover{
+  color:#3498db;
+  text-decoration:underline;
+}
+.side img{
+  border-radius: 4px;
 }
 
 .foot{
