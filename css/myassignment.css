@@ -118,6 +118,9 @@ nav a{
 .social li{
   font-size: 15px;
 }
+.foot li{
+  list-style: none;
+}
 
 .foot{
   padding-left:200px;

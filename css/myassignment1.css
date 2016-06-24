@@ -108,3 +108,6 @@
   .foot{
     padding-left:200px;
   }
+  .foot li{
+    list-style: none;
+  }
