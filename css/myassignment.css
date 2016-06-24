@@ -1,13 +1,17 @@
 
 body{
   font-family: sans-serif;
-  background:#8DEEEE;
   }
 .heading{
-  background-color: grey;
+  background-color:#2c3e50;
   margin-left:0px;
   position:fixed;
-  width:100%
+  width:100%;
+  padding-bottom: 20px;
+}
+.fix img{
+  float: left;
+  width:30%;
 }
 
 .heading h1{
@@ -15,33 +19,41 @@ body{
   text-align: left;
   padding-left:25px;
 }
- .heading ul li{
-  display:inline;
-  padding-left:0px;
+.list{
+  text-align: right;
 }
-.heading ul li a{
-  color:black;
+.list ul li {
+  display:inline;
+}
+
+.list ul li a{
+
+  color:white;
   font-size:20px;
+  margin-bottom: -10px;
+  padding-right: 0px;
 }
 .heading ul a:hover{
-  color:white;
+  color:grey;
 }
 nav a{
   text-decoration: none;
 }
 .wrap h4{
-  padding-top: 50px;
+  padding-top: 0px;
   color:black;
 }
 .wrap p{
-  padding-top:15px;
+  padding-top:10px;
   font-size: 14px;
   line-height: 20px;
   color:black;
 }
-.hero img{
-  margin-top: -20px;
-  width:100%;
+.hero {
+  background-image: url('../21.png');
+  background-attachment: fixed;
+  background-size: cover;
+  height:100%;
 }
 .wrap
 {
@@ -62,12 +74,17 @@ nav a{
   padding-top: 100px;
 }
 .ranks a:hover{
-  color:blue;
+  color:grey;
+}
+.side p:hover{
+  color:grey;
 }
 
 .foot{
   margin-top: -20px;
-  background-color: black;
+  background-color:#2c3e50;
+  background-attachment: fixed;
+  background-size: cover;
   width:100%;
   color:white;
 }
@@ -84,10 +101,4 @@ nav a{
 }
 .social li{
   font-size: 15px;
-}
-.uc{
-  background:brown;
-}
-.side p:hover{
-  color:blue;
 }
