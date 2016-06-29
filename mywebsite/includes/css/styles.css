@@ -13,7 +13,16 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Layout
    -------------------------------------- */
-
+   #features
+   {
+     text-align: center;
+   }
+   #features img{
+     margin:0 0 20px;
+   }
+   #inputMessage{
+     margin-bottom: 15px;
+   }
 
 
 /* --------------------------------------
@@ -77,6 +86,9 @@ text-rendering:optimizelegibility;
 }
 .well{
   margin-top: 20px 0;
+}
+.tabbable img.thumbnail{
+  margin: 0 20px 10px 0;
 }
 
 
