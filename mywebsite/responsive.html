@@ -15,7 +15,7 @@
 		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
 
 		<!-- Custom CSS -->
-		<link href="includes/css/styles.css" rel="stylesheet">
+		<link href="includes/css/style1.css" rel="stylesheet">
 
 		<!-- Include Modernizr in the head, before any other Javascript -->
 		<script src="includes/js/modernizr-2.6.2.min.js"></script>
@@ -23,7 +23,105 @@
 	</head>
 	<body>
 
-	<!-- Your Code Goes Here. Remember to remove this comment once you've started, you don't need it :) -->
+
+    <nav class="navbar navbar-fixed-top">
+			<div class="container-fluid">
+				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+					<a class="navbar-brand" href="#">Check Mate</a>
+				<div class="nav-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav pull-right">
+						<li>
+							 <a href="#">OPENINGS</a>
+						</li>
+						<li>
+							 <a href="#">STRATEGY</a>
+						</li>
+						<li>
+							 <a href="#">PUZZLES</a>
+						</li>
+						<li>
+							 <a href="#">PRACTICE</a>
+						</li>
+          </ul>
+				</div><!--nav-collapse-->
+      </div><!--container-fluid-->
+    </nav><!--end navbar-->
+
+
+		<div class="carousel slide" id="myCarousel">
+			<!--Indicators-->
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+				<li data-slide-to="1" data-target="#myCarousel"></li>
+				<li data-slide-to="2" data-target="#myCarousel"></li>
+			</ol>
+			<!-- wrapper for slide -->
+			<div class="carousel-inner">
+				<div class="item active" id="slide1">
+				</div><!--end item-->
+				<div class="item" id="slide2">
+				</div><!--end item-->
+				<div class="item" id="slide3">
+				
+				</div><!--end item-->
+			</div><!--carousel-inner-->
+			<!--controls-->
+			<a  class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+			<a  class="right carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-next"></span></a>
+		</div><!-- End mycarousel -->
+		<div class="row" id="recent">
+			<div class="col_12">
+				<h2>Recent Chess Posts</h2>
+
+			</div><!-- col-12-->
+
+		</div><!--End featuresHeading-->
+    <div class="container">
+		<div class="row" id="features">
+			<div class="col-sm-3 feature">
+				<div class="panel">
+
+					<img src="images/a1.jpg" alt="chess1" class="img-square"/>
+					<p class="lead">1972 World Chess Championship:Spassky vs Fischer Game 1</p>
+
+				</div><!--end panel-->
+
+			</div><!--end feature-->
+			<div class="col-sm-3 feature">
+				<div class="panel">
+
+					<img src="images/a2.jpg" alt="CSS3" class="img-square" />
+					<p class="lead">Candidates 2016 - Karjakin vs Caruana - Round 14</p>
+
+				</div><!--end panel-->
+
+			</div><!--end feature-->
+			<div class="col-sm-3 feature">
+				<div class="panel">
+					<img src="images/a3.jpg" alt="Bootstrap 3" class="img-square"/>
+					<p class="lead">Candidates 2016 - Topalov vs Nakamura - Round 13</p>
+
+				</div><!--end panel-->
+
+			</div><!--end feature-->
+			<div class="col-sm-3 feature">
+				<div class="panel">
+
+					<img src="images/a4.jpg" alt="Bootstrap 3" class="img-square"/>
+					<p class="lead">1972 World Chess Championship:Spassky vs Fischer Game 6</p>
+				</div><!--end panel-->
+
+			</div><!--end feature-->
+
+		</div><!-- End features -->
+		</div>
+
+
+
 
 
 	<!-- All Javascript at the bottom of the page for faster page loading -->

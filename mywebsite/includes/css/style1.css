@@ -1,0 +1,100 @@
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   #features
+   {
+     text-align: center;
+   }
+
+.nav{
+  margin-right: 40px;
+}
+.navbar-brand{
+  padding:13px 15px;
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel{
+  margin-top: 60px;
+}
+.carousel-caption{
+  font-size: 24px;
+}
+.carousel-caption h4{
+  font-size: 32px;
+}
+#myCarousel .item{
+height:700px;
+}
+#slide1{
+background: url('../../images/b1.jpg') top center no-repeat;
+background-size: cover;
+}
+#slide3{
+background: url('../../images/b2.jpg') top center no-repeat;
+background-size: cover;
+}
+#slide2{
+background: url('../../images/images3.jpg') top center no-repeat;
+background-size: cover;
+}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+  .thumbnail .price{
+    font-size: 14px;
+  }
+.thumbnail .price sup {
+  font-size: 10px;
+}
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  #myCarousel .item{
+    height:310px;
+  }
+  #slide1{
+  background: url('../../images/b1.jpg') top center no-repeat;
+  background-size: cover;
+  }
+  #slide3{
+  background: url('../../images/b2.jpg') top center no-repeat;
+  background-size: cover;
+  }
+  #slide2{
+  background: url('../../images/images3.jpg') top center no-repeat;
+  background-size: cover;
+  }
+  .carousel-caption{
+    font-size: 16px;
+  }
+  .carousel-caption h4{
+    font-size: 22px;
+  }
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  #myCarousel .item{
+    height:700px;
+    #slide1{
+    background: url('../../images/images1.jpg') top center no-repeat;
+    background-size: cover;
+    }
+    #slide3{
+    background: url('../../images/images2.jpg') top center no-repeat;
+    background-size: cover;
+    }
+    #slide2{
+    background: url('../../images/images3.jpg') top center no-repeat;
+    background-size: cover;
+    }
+}
